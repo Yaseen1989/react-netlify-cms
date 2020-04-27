@@ -1,0 +1,77 @@
+h1 {
+    font-family: "Raleway";
+    font-weight: 500;
+    margin: 0;
+}
+
+.links {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.layout-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.layout-body .track .slide {
+    background-size: 100% 100% !important;
+}
+
+.layout-body .slider {
+    min-height: 65vh;
+}
+
+.layout-body .nav {
+    min-height: 25vh;
+}
+
+.layout-body .slider-boxes-section {
+    min-height: 100vh;
+}
+
+.header {
+    background: darkred;
+    color: lightblue;
+    padding: 78px 0px 0px 20px;
+    position: relative;
+    border-bottom: 1px solid gray;
+}
+
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.post-card {
+    text-align: left;
+    font-family: "Raleway";
+    border: 1px solid lightblue;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.img-container {
+    display: flex;
+}
+
+.thumbnail {
+    padding: 10px;
+}
+
